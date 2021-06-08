@@ -1,0 +1,65 @@
+/* Icone font-awesome */
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+/* Police Raleway */
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900");
+
+/* GENERAL */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+	padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a {
+    font-weight: bold;
+    color: #0065FC;
+}
+
+a:hover {
+    font-weight: bold;
+    color: grey;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    margin: 20px 50px 0 50px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+figure {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+/* TROUVER HEBERGEMENT */
+
+/* LISTE HEBERGEMENT */
+
+/* ACTIVITE */
+
+/* FOOTER */
