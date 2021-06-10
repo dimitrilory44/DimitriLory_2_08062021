@@ -14,8 +14,7 @@ body {
 
 main {
     margin: 20px 50px 0 50px;
-    width: 80%;
-    height: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -23,8 +22,7 @@ main {
 
 header {
     padding-top: 20px;
-    width: 80%;
-    height: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -81,7 +79,7 @@ input[placeholder] {
     padding-left: 10px;
 }
 
-input[type="search"] {
+input[type="text"] {
     border: 1px solid #F2F2F2;
 }
 
@@ -176,6 +174,143 @@ input[type="search"] {
 
 
 /* LISTE HEBERGEMENT */
+
+#mesHebergement {
+    margin-top: 30px;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergement {
+    width: 60%;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    padding: 20px 40px; 
+}
+
+.resultatCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.resultatCard > * {
+    flex: 0 0 30%;
+}
+
+.resultatCardPop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.resultatCardPop > * {
+    flex: 100%;
+}
+
+.cards {
+    background-color: white;
+    width: 220px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-card {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    margin: 2%;
+    width: 96%;
+    height: 115px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img-card-pop {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    margin: 2%;
+    width: 115px;
+    height: 92%;
+    border-radius: 20px 0 0 20px;
+}
+
+.description {
+    margin-left: 15px;
+}
+
+.description p {
+    margin-top: -2px;
+}
+
+.libelle {
+    white-space: nowrap;
+    font-size: .9em;
+    margin: 5px 0;
+}
+
+.prix {
+    font-size: 0.7em;
+}
+
+.star {
+    margin-top: -5px;
+}
+
+.icon-star {
+    color: #0065FC;
+}
+
+.icon-star-disable {
+    color: #DEEBFF;
+}
+
+.cardsPop {
+    background-color: white;
+    width: 320px;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.populaire {
+    width: 25%; 
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.popdetails {
+    margin-left: 5px;
+}
+
+.popdetails p {
+    margin-top: -15px;
+}
+
+.popdetails .star {
+    margin-top: 40px;
+}
+
+.iconcourbe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.45em;
+}
+
+.libelleProp {
+    font-size: 0.8em;
+}
+
+.popdetails {
+    width: 150px;
+}
 
 /* ACTIVITE */
 
