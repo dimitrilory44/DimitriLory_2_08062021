@@ -9,54 +9,171 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
-ul {
-    list-style: none;
+main {
+    margin: 20px 50px 0 50px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 20px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
 }
 
 nav a {
     text-decoration: none;
 }
 
-a {
-    font-weight: bold;
-    color: #0065FC;
-}
-
-a:hover {
-    font-weight: bold;
-    color: grey;
-}
-
-/* HEADER */
-
-header {
-    display: flex;
-    margin: 20px 50px 0 50px;
-}
-
-.spacer {
-    flex-grow: 1;
-}
-
-figure {
-	margin: 0px;
-	padding: 0px;
-}
-
 ul li {
     margin-right: 50px;
 }
 
-nav ul {
-    display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+ul {
+    list-style: none;
+}
+
+.menuItem {
+    font-weight: bold;
+    color: grey;
+}
+
+.menuItem:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 33px;
+    font-weight: bold;
+    color: #0065FC;
 }
 
 /* TROUVER HEBERGEMENT */
+
+.descriptif {
+    margin-bottom: 30px;
+}
+
+.titre {
+    line-height: 0.2em;
+}
+
+form {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+input[placeholder] {
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+input[type="search"] {
+    border: 1px solid #F2F2F2;
+}
+
+.mark {
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.submit {
+    background-color: #0065FC;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    padding-top: 10px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 1em;
+}
+
+.filtre {
+    display: flex;
+    align-items: center;
+}
+
+.boutonFiltre {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.filtreDetails {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    height: 50px;
+    border-top: 2.5px solid #F2F2F2;
+    border-right: 2.5px solid #F2F2F2;
+    border-bottom: 2.5px solid #F2F2F2;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.titre {
+    font-weight: bold;
+}
+
+.icon-filtre {
+    height: 50px;
+    width: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.filtreIntitule {
+    margin: 0px 15px;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.info p {
+    margin-left: 10px;
+}
+
+.details {
+    font-size: 0.8em;
+}
+
+.icon-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e4e4e4;
+    color: #0065FC;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
 
 /* LISTE HEBERGEMENT */
 
