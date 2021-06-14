@@ -13,7 +13,6 @@ body {
 }
 
 main {
-    margin: 20px 50px 0 50px;
     width: 85%;
     margin: 0 auto;
 }
@@ -23,19 +22,21 @@ a {
     color: black;
 }
 
-a:hover {
-    text-decoration: underline;
+button {
+    border: none;
+}
+
+::placeholder {
+    color: black;
 }
 
 /* HEADER */
 
 header {
+    display: flex;
     padding-top: 20px;
     width: 85%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     margin-bottom: 50px;
 }
 
@@ -48,16 +49,29 @@ nav a {
 }
 
 ul li {
-    margin-right: 50px;
+    padding-right: 40px;
 }
 
 ul {
     list-style: none;
 }
 
+.spacer {
+    flex-grow: 1;
+}
+
+.inscription {
+    display:flex;
+    align-items: center;
+    color: #0065FC;
+    font-weight: bold;
+}
+
 .menuItem {
     font-weight: bold;
     color: grey;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .menuItem:hover {
@@ -66,6 +80,7 @@ ul {
     font-weight: bold;
     color: #0065FC;
 }
+
 
 /* TROUVER HEBERGEMENT */
 
@@ -79,7 +94,7 @@ ul {
 
 form {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 input[placeholder] {
@@ -89,26 +104,29 @@ input[placeholder] {
 }
 
 input[type="text"] {
+    font-size: 1.1em;
     border: 1px solid #F2F2F2;
 }
 
 .mark {
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
-    text-align: center;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50px;
 }
 
 .submit {
     background-color: #0065FC;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 0 10px 10px 0;
-    padding-top: 10px;
     width: 150px;
-    height: 35px;
+    height: 45px;
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .filtre {
@@ -135,6 +153,22 @@ input[type="text"] {
     background-color: white;
 }
 
+.filtreDetails:hover {
+    color: #0065FC;
+    border-top: 2.5px solid #0065FC;
+    border-right: 2.5px solid #0065FC;
+    border-bottom: 2.5px solid #0065FC;
+    background-color: #DEEBFF;
+    transition: all 450ms;
+
+}
+
+.filtreDetails:hover .icon-filtre {
+    background-color: #0065FC;
+    color: white;
+    transition: all 300ms;
+}
+
 .titre {
     font-weight: bold;
 }
@@ -149,6 +183,7 @@ input[type="text"] {
     align-items: center;
     border-radius: 50%;
 }
+
 
 .filtreIntitule {
     margin: 0px 15px;
@@ -186,7 +221,6 @@ input[type="text"] {
 
 #mesHebergement {
     margin-top: 30px;
-    height: 620px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -222,12 +256,17 @@ input[type="text"] {
 .cards {
     background-color: white;
     width: 220px;
-    height: 200px;
     margin-bottom: 30px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform:scale(1.05);
 }
 
 .img-card {
@@ -293,6 +332,12 @@ input[type="text"] {
     border-radius: 20px;
     display: flex;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.cardsPop:hover {
+    transform:scale(1.05);
 }
 
 .populaire {
@@ -302,8 +347,9 @@ input[type="text"] {
     padding: 20px 40px;
 }
 
-.popdetails {
+.star {
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 .popdetails p {
@@ -312,6 +358,11 @@ input[type="text"] {
 
 .popdetails .star {
     margin-top: 40px;
+}
+
+.blockPop {
+    display: flex; 
+    justify-content: space-between;
 }
 
 .iconcourbe {
@@ -370,8 +421,13 @@ figure {
     width: 300px;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     border-radius: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
+figure:hover {
+    transform:scale(1.05);
+}
 
 figcaption {
     background-color: white;
@@ -409,7 +465,6 @@ figcaption {
 footer {
     background-color: #F2F2F2;
     width: 100%;
-    height: 300px;
 }
 
 .footer-content {
@@ -418,6 +473,10 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.item-footer:hover {
+    text-decoration: underline;
 }
 
 .footer-content #assistance {
