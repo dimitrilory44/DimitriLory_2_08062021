@@ -1,13 +1,271 @@
-
-/* Taille deskstop */
-@media screen and (min-width: 738px) {
+/* Taille deskstop grand ecran*/
+@media screen and (min-width: 1500px)  {
     .mobile {
         display: none;
     }
 }
 
-/* Taille IPhone 8 */
-@media screen and (max-width: 738px) {
+/* Taille deskstop moyenne ecran*/
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .rechercher {
+        display: block;
+    }
+
+    #mesHebergement {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%!important;
+        height: 220px!important;
+    }
+
+    .resultatCardPop {
+        width: 100%;
+    }
+
+    .resultatCard > * {
+         flex: 0 0 46%!important; 
+    }
+
+    .populaire {
+        width: 90%!important;
+        border-radius: 0!important;
+        order: 1;
+    }
+
+    .popdetails {
+        width: 94%!important;
+    }
+    
+    .img-card-pop {
+        width: 100%!important;
+        margin: 1%!important;
+    }
+
+    .hebergement {
+        width: 90%!important;
+        background-color: white!important;
+        order: 2;
+    }
+
+    #activites {
+        flex-direction: column;
+    }
+
+    form {
+        width: 330px;
+    }
+
+    .activite-titre {
+        padding-left: 40px;
+    }
+    
+    .imagesMarseille {
+        justify-content: center!important;
+        align-items: center!important;
+        flex-wrap: wrap;
+        margin-bottom: 30px!important;
+    }
+
+    .image-activite {
+        justify-content: center!important;
+        align-items: center!important;
+        width: 100%!important;
+    }
+
+    figure  {
+        margin-bottom: 30px!important;
+        width: 90%!important;
+    }
+
+    .img-act, .img-act-2, .img-act-3, .img-act-4, .img-act-5 {
+        height: 200px!important;
+    }
+
+}
+
+/* Taille deskstop petit ecran */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .rechercher {
+        display: block;
+    }
+
+    #mesHebergement {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%!important;
+        height: 220px!important;
+    }
+
+    .resultatCardPop {
+        width: 100%;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    .resultatCard > * {
+         flex: 0 0 46%!important; 
+    }
+
+    .populaire {
+        width: 90%!important;
+        border-radius: 0!important;
+        order: 1;
+    }
+
+    .popdetails {
+        width: 94%!important;
+    }
+    
+    .img-card-pop {
+        width: 100%!important;
+        margin: 1%!important;
+    }
+
+    .hebergement {
+        width: 90%!important;
+        background-color: white!important;
+        order: 2;
+    }
+
+    #activites {
+        flex-direction: column;
+    }
+
+    .activite-titre {
+        padding-left: 40px;
+    }
+    
+    .imagesMarseille {
+        justify-content: center!important;
+        align-items: center!important;
+        flex-wrap: wrap;
+        margin-bottom: 30px!important;
+    }
+
+    .image-activite {
+        justify-content: center!important;
+        align-items: center!important;
+        width: 100%!important;
+    }
+
+    figure  {
+        margin-bottom: 30px!important;
+        width: 90%!important;
+    }
+
+    .img-act, .img-act-2, .img-act-3, .img-act-4, .img-act-5 {
+        height: 200px!important;
+    }
+
+}
+
+/* Taille tablette */
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    .mobile {
+        display: none;
+    }
+
+    .rechercher {
+        display: block;
+    }
+
+    #mesHebergement {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%!important;
+        height: 220px!important;
+    }
+
+    .resultatCardPop {
+        width: 100%;
+    }
+
+    .resultatCard > * {
+         flex: 0 0 46%!important; 
+    }
+
+    .populaire {
+        width: 90%!important;
+        border-radius: 0!important;
+        order: 1;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    .popdetails {
+        width: 94%!important;
+    }
+    
+    .img-card-pop {
+        width: 100%!important;
+        margin: 1%!important;
+    }
+
+    .hebergement {
+        width: 90%!important;
+        background-color: white!important;
+        order: 2;
+    }
+
+    #activites {
+        flex-direction: column;
+    }
+
+    .activite-titre {
+        padding-left: 40px;
+    }
+    
+    .imagesMarseille {
+        justify-content: center!important;
+        align-items: center!important;
+        flex-wrap: wrap;
+        margin-bottom: 30px!important;
+    }
+
+    .image-activite {
+        justify-content: center!important;
+        align-items: center!important;
+        width: 100%!important;
+    }
+
+    figure  {
+        margin-bottom: 30px!important;
+        width: 90%!important;
+    }
+
+    .img-act, .img-act-2, .img-act-3, .img-act-4, .img-act-5 {
+        height: 150px!important;
+    }
+
+    .footer-content {
+        width: 75%!important;
+    }
+
+}
+
+/* Taille téléphone */
+@media screen and (max-width: 767px){
 
     main {
         width: 100%!important;
@@ -16,6 +274,7 @@
     header {
         flex-wrap: wrap;
         width: 100%!important;
+        margin: 0 auto;
     }
 
     .logo {
@@ -29,6 +288,7 @@
 
     nav {
         margin-top: 20px;
+        width: 100%!important;
         display: flex;
         order: 2;
         align-items: center;
@@ -50,6 +310,8 @@
 
     .titre {
         line-height: 1.5em!important;
+        margin-top: -20px;
+        width: 96%;
     }
 
     .rechercher {
@@ -58,7 +320,6 @@
 
     .mobile {
         display: block;
-       
     }
 
     .mark {
@@ -66,7 +327,15 @@
     }
 
     form {
-        width: 92%;
+        width: 330px;
+    }
+
+    input[type="text"] {
+        width: 200px;
+    }
+
+    .submit {
+        width: 250px!important;
     }
 
     .filtre {
@@ -74,13 +343,21 @@
         flex-wrap: wrap;
     }
 
+    .filtreIntitule {
+        font-size: 1em!important;
+    } 
+
     .filtreDetails {
         margin-left: 0!important;
+        margin-right: 10px;
         margin-bottom: 20px;
     }
 
+    /* LISTE HEBERGEMENT */
+
     #mesHebergement {
         flex-direction: column;
+        width: 80.6%!important;
     }
 
     .cards {
@@ -88,20 +365,12 @@
         height: 220px!important;
     }
 
-    .populaire {
-        width: 80%;
-    }
-
-    .populaire h1 {
-        font-size: 1.2em;
-    }
-
     .resultatCardPop {
-        width: 80%;
+        width: 100%;
     }
 
     .resultatCard {
-        width: 80%;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -112,7 +381,7 @@
     }
 
     .blockPop {
-        width: 80%;
+        width: 100%;
     }
     
     .hebergement {
@@ -123,29 +392,40 @@
 
     #activites {
         flex-direction: column;
+        width: 100%!important;
     }
 
-    #activites h1 {
-        margin-left: 35px;
+    .activite-titre {
+        padding-left: 40px;
     }
     
     .imagesMarseille {
         justify-content: center!important;
         align-items: center!important;
         flex-wrap: wrap;
-        margin-bottom: 30px!important;
+        margin: 0 auto!important;
     }
     
-    figure  {
-        margin-bottom: 30px!important;
+    .image-activite {
+        justify-content: center!important;
+        align-items: center!important;
+        width: 100%!important;
     }
 
-    .img-act, .img-act-2, .img-act-3 {
+    figure  {
+        margin-bottom: 30px!important;
+        width: 80%!important;
+    }
+
+    .img-act, .img-act-2, .img-act-3, .img-act-4, .img-act-5 {
         height: 150px!important;
     }
 
+    /* FOOTER */
+
     .footer-content {
         flex-direction: column;
+        padding-bottom: 30px!important;
     }
 
     #assistance {
