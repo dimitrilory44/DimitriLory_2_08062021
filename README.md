@@ -16,7 +16,12 @@
 - Les images doivent être de taille adéquate afin qu'elle soit le plus jolie possible en impactant le moins possible le temps de chargement de la page.
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
+- Le code devra être vérifié par le validateur W3C HTML et CSS
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
+
+## Elements de maquette
+
+L'entreprise nous fournis 2 éléments de maquette : une en version mobile et une en version deskstop. Le site devra également être adapté aux tablettes. Sur ce support, on est libre de faire les adaptations nécessaires avec la mise en page, tant qu’aucun élément n’est coupé et que le texte a une taille suffisante.
 
 ### Page deskstop
 
@@ -26,3 +31,16 @@
 ### Page mobile (IPhone 8)
 
 ![iPhone 8 - 1](https://user-images.githubusercontent.com/40861838/121193167-e68e2d80-c86d-11eb-8d89-fb4aee941b2f.png)
+
+### Breakpoints pour le responsive design
+
+- Version mobile : Entre 0px et 767px
+- Version tablette : Entre 768px et 991px
+- Version deskstop :
+    - deskstop petit écran : Entre 992px et 1199px
+    - deskstop moyenne écran : Entre 1200px et 1499px
+    - deskstop grand écran : A partir de 1500px
+
+## Hébergement du site
+
+Le site Reservia est hébergé par github pages vers ce [lien](https://dimitrilory44.github.io/DimitriLory_2_08062021/)
