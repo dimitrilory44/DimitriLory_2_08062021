@@ -25,11 +25,11 @@
         height: 220px!important;
     }
 
-    .resultatCardPop {
+    .cards-list-populaire {
         width: 100%;
     }
 
-    .resultatCard > * {
+    .cards-list > * {
          flex: 0 0 46%!important; 
     }
 
@@ -39,7 +39,7 @@
         order: 1;
     }
 
-    .popdetails {
+    .details-populaire {
         width: 94%!important;
     }
     
@@ -110,7 +110,7 @@
         height: 220px!important;
     }
 
-    .resultatCardPop {
+    .cards-list-populaire {
         width: 100%;
     }
 
@@ -118,7 +118,7 @@
         width: 500px;
     }
 
-    .resultatCard > * {
+    .cards-list > * {
          flex: 0 0 46%!important; 
     }
 
@@ -128,7 +128,7 @@
         order: 1;
     }
 
-    .popdetails {
+    .details-populaire {
         width: 94%!important;
     }
     
@@ -195,11 +195,11 @@
         height: 220px!important;
     }
 
-    .resultatCardPop {
+    .cards-list-populaire {
         width: 100%;
     }
 
-    .resultatCard > * {
+    .cards-list > * {
          flex: 0 0 46%!important; 
     }
 
@@ -213,7 +213,7 @@
         width: 500px;
     }
 
-    .popdetails {
+    .details-populaire {
         width: 94%!important;
     }
     
@@ -365,11 +365,11 @@
         height: 220px!important;
     }
 
-    .resultatCardPop {
+    .cards-list-populaire {
         width: 100%;
     }
 
-    .resultatCard {
+    .cards-list {
         width: 100%;
         flex-direction: column;
     }
@@ -380,7 +380,7 @@
         order: 1;
     }
 
-    .blockPop {
+    .heading-populaire {
         width: 100%;
     }
     

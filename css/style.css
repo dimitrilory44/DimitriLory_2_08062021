@@ -229,23 +229,23 @@ input[type="text"] {
     padding: 20px 40px; 
 }
 
-.resultatCard {
+.cards-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.resultatCard > * {
+.cards-list > * {
     flex: 0 0 30%;
 }
 
-.resultatCardPop {
+.cards-list-populaire {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.resultatCardPop > * {
+.cards-list-populaire > * {
     flex: 100%;
 }
 
@@ -286,7 +286,7 @@ input[type="text"] {
     object-position: center;
     margin: 2%;
     width: 115px;
-    height: 92%;
+    height: 90%;
     border-radius: 20px 0 0 20px;
 }
 
@@ -316,7 +316,7 @@ input[type="text"] {
     color: #DEEBFF;
 }
 
-.cardsPop {
+.cards-populaire {
     background-color: white;
     width: 320px;
     height: 150px;
@@ -328,7 +328,7 @@ input[type="text"] {
     cursor: pointer;
 }
 
-.cardsPop:hover {
+.cards-populaire:hover {
     transform:scale(1.05);
 }
 
@@ -345,19 +345,19 @@ input[type="text"] {
     margin-right: 5px;
 }
 
-.popdetails p {
+.details-populaire p {
     margin-top: -15px;
 }
 
-.popdetails {
+.details-populaire {
     margin-left: 10px;
 }
 
-.popdetails .star {
+.details-populaire .star {
     margin-top: 30px;
 }
 
-.blockPop {
+.heading-populaire {
     display: flex; 
     justify-content: space-between;
 }
@@ -412,6 +412,24 @@ input[type="text"] {
     object-position: center;
 }
 
+.img-act-4 {
+    border-radius: 20px 20px 0 0;
+    height: 135px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-act-5 {
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
 figure {
     margin: 0;
     padding: 0;
@@ -439,23 +457,6 @@ figcaption {
     flex-direction: column;
 }
 
-.img-act-4 {
-    border-radius: 20px 20px 0 0;
-    height: 135px;
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-}
-
-.img-act-5 {
-    border-radius: 20px 20px 0 0;
-    height: 150px;
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-}
 
 /* FOOTER */
 
