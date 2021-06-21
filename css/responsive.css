@@ -1,97 +1,11 @@
-/* Taille deskstop grand ecran*/
-@media screen and (min-width: 1500px)  {
+@media screen and (min-width: 1500px) {
     .mobile {
         display: none;
     }
 }
 
-/* Taille deskstop moyenne ecran*/
-@media screen and (min-width: 1200px) and (max-width: 1499px) {
-
-    .mobile {
-        display: none;
-    }
-
-    .rechercher {
-        display: block;
-    }
-
-    #mesHebergement {
-        flex-direction: column;
-    }
-
-    .cards {
-        width: 100%!important;
-        height: 220px!important;
-    }
-
-    .cards-list-populaire {
-        width: 100%;
-    }
-
-    .cards-list > * {
-         flex: 0 0 46%!important; 
-    }
-
-    .populaire {
-        width: 90%!important;
-        border-radius: 0!important;
-        order: 1;
-    }
-
-    .details-populaire {
-        width: 94%!important;
-    }
-    
-    .img-card-pop {
-        width: 100%!important;
-        margin: 1%!important;
-    }
-
-    .hebergement {
-        width: 90%!important;
-        background-color: white!important;
-        order: 2;
-    }
-
-    #activites {
-        flex-direction: column;
-    }
-
-    form {
-        width: 500px;
-    }
-
-    .activite-titre {
-        padding-left: 40px;
-    }
-    
-    .imagesMarseille {
-        justify-content: center!important;
-        align-items: center!important;
-        flex-wrap: wrap;
-        margin-bottom: 30px!important;
-    }
-
-    .image-activite {
-        justify-content: center!important;
-        align-items: center!important;
-        width: 100%!important;
-    }
-
-    figure  {
-        margin-bottom: 30px!important;
-        width: 90%!important;
-    }
-
-    .img-act, .img-act-2, .img-act-3, .img-act-4, .img-act-5 {
-        height: 200px!important;
-    }
-
-}
-
-/* Taille deskstop petit ecran */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* Taille deskstop */
+@media screen and (min-width: 992px) and (max-width: 1499px) {
 
     .mobile {
         display: none;
