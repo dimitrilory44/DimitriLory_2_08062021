@@ -1,11 +1,92 @@
+/* Taille deskstop grand ecran*/
 @media screen and (min-width: 1500px) {
     .mobile {
         display: none;
     }
 }
 
-/* Taille deskstop */
-@media screen and (min-width: 1024px) and (max-width: 1499px) {
+/* Taille deskstop moyenne ecran*/
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    .mobile {
+        display: none;
+    }
+
+    figure  {
+        margin-bottom: 30px!important;
+        width: 250px!important;
+    }
+}
+
+/* Taille deskstop petit ecran*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .rechercher {
+        display: block;
+    }
+
+    #mesHebergement {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .cards {
+        width: 100%!important;
+        height: 220px!important;
+    }
+
+    .cards-list-populaire {
+        width: 100%;
+    }
+
+    .cards-list > * {
+        flex: 0 0 32.5%!important;
+    }
+
+    .populaire {
+        width: 26%!important; 
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        padding: 20px 40px;
+    }
+
+    .details-populaire {
+        width: 94%!important;
+    }
+
+    .img-card-pop {
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        margin: 2%;
+        width: 90px!important;
+        height: 90%;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #activites {
+        flex-direction: column;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    figure  {
+        margin-bottom: 30px!important;
+        width: 220px!important;
+
+    }
+
+}
+
+/* Taille grande tablette */
+@media screen and (min-width: 992px) and (max-width: 1023px) {
 
     .mobile {
         display: none;
@@ -33,7 +114,7 @@
     }
 
     .cards-list > * {
-         flex: 0 0 46%!important; 
+         flex: 0 0 40%!important; 
     }
 
     .populaire {
@@ -75,6 +156,7 @@
     .image-activite {
         justify-content: center!important;
         align-items: center!important;
+        flex-wrap: wrap;
         width: 100%!important;
     }
 
@@ -90,7 +172,7 @@
 }
 
 /* Taille tablette */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 
     .mobile {
         display: none;

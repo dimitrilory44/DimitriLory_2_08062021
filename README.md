@@ -36,8 +36,11 @@ L'entreprise nous fournis 2 éléments de maquette : une en version mobile et un
 
 - Version mobile : Entre 0px et 767px
 - Version tablette : Entre 768px et 1023px
-- Version deskstop : Entre 1024px et 1499px
-
+- Version deskstop : 
+    - deskstop petit écran : Entre 1024px et 1199px
+    - deskstop moyenne écran :
+    Entre 1200px et 1499px
+    - deskstop grand écran : à partir de 1500px
 ## Hébergement du site
 
 Le site Reservia est hébergé par github pages vers ce [lien](https://dimitrilory44.github.io/DimitriLory_2_08062021/)
