@@ -22,6 +22,10 @@
         margin-bottom: 30px!important;
         width: 250px!important;
     }
+
+    .img-card-pop {
+        width: 90px!important;
+    }
 }
 
 /* Taille deskstop petit ecran*/
@@ -33,6 +37,22 @@
 
     .rechercher {
         display: block;
+    }
+
+    .filtreIntitule {
+        font-size: 1em!important;
+    }
+
+    .heading-populaire h1 {
+        font-size: 21px;
+    }
+
+    .hebergement h1 {
+        font-size: 21px;
+    }
+
+    .activite-titre {
+        font-size: 21px;
     }
 
     #mesHebergement {
